@@ -1,8 +1,11 @@
+import React from "react";
+import Cart from "./components/Cart/Cart";
 
 function App() {
   return (
     <div className="App">
-    <h1> HELLO WORLD!!</h1>
+      <h1>Cart</h1>
+      <Cart />
     </div>
   );
 }
